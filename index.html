@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -27,14 +29,14 @@
             </div>
         </header>
         <section>
-            <div class="apply__wrapper">
+            <div class="apply__wrapper tabs">
                 <div class="form">
                     <h1 class="form__title">apply now</h1>
-                    <div class="form__select">
-                        <p class="form__give tab__active">Give care</p>
-                        <p class="form__get">Get care</p>
-                    </div>
-                    <form action="" class="form__give-wrap">
+                    <ul class="form__select tabs__caption">
+                        <li class="form__give tab__active">Give care</li>
+                        <li class="form__get">Get care</li>
+                    </ul>
+                    <form action="" class="form__give-wrap tabs__content tab__active">
                         <div class="form__select-wrap">
                             <input type="text" placeholder="First name*" name="name">
                             <input type="text" placeholder="Last name*" name="last">
@@ -46,6 +48,20 @@
                         <input type="submit" value="Submit" class="form__submit">
                         <div class="form__terms">
                             <a href="">Terms and Conditions | Privacy Policy</a>
+                        </div>
+                    </form>
+                    <form action="" class="form__give-wrap tabs__content">
+                        <div class="form__select-wrap">
+                            <input type="text" placeholder="First name*" name="name">
+                            <input type="text" placeholder="Last name*" name="last">
+                        </div>
+                        <div class="form__select-wrap">
+                            <input type="text" placeholder="E-mail*" name="email">
+                            <input type="text" placeholder="Phone number*" name="phone">
+                        </div>
+                        <input type="submit" value="Submit" class="form__submit">
+                        <div class="form__terms">
+                            <a href="">Terms and Conditions | Privacy Policy 123</a>
                         </div>
                     </form>
                 </div>
@@ -204,7 +220,26 @@
         <section>
             <div class="testimonial__wrap">
                 <h2 class="section__title">Testimonials</h2>
-                <div class="testimonial__section">
+                <div class="testimonial__section autoplay">
+                    <div class="testimonial__item">
+                        <img src="img/ar.svg" alt="">
+                        <p class="test__text">Love this place will recommend to anyone they have lots of benefits for the home health care aids and they care for their consumers</p>
+                        <div class="foot__wrap">
+                            <div class="foot_name">
+                                N
+                            </div>
+                            <div class="foot_desc">
+                                <div class="full__name">natalia perez</div>
+                                <div class="stars">
+                                    <img src="img/star.svg" alt="">
+                                    <img src="img/star.svg" alt="">
+                                    <img src="img/star.svg" alt="">
+                                    <img src="img/star.svg" alt="">
+                                    <img src="img/star.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <div class="testimonial__item">
                         <img src="img/ar.svg" alt="">
                         <p class="test__text">Love this place will recommend to anyone they have lots of benefits for the home health care aids and they care for their consumers</p>
@@ -339,6 +374,8 @@
             </div>
         </footer>
     </div>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/slick.js"></script>
+    <script src="js/index.js"></script>
 </body>
 </html>

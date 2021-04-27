@@ -622,3 +622,101 @@ footer {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
 }
+
+.care__category {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+.provide__items  {
+    max-width: 100%;
+    height: 49rem;
+    margin-bottom: 2.4rem;
+    cursor: pointer;
+    overflow: hidden;
+}
+.child {
+    display: grid;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+.provide__items:not(:nth-child(3n+3)) {
+    margin-right: 2.4rem;
+}
+.provide__items:hover .child,
+.provide__items:focus .child {
+    -ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.other__services-wrap {
+    padding: 0 37.5rem 11.9rem 37.5rem;
+}
+.other__services {
+    margin-top: 2.4rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.services__item {
+    margin-bottom: 2.4rem;
+    padding: 7.4rem 1rem 9.2rem 1rem;
+    border: 1px solid #ECF3FF;
+}
+.services__item:not(:nth-child(3n+3)) {
+    margin-right: 2rem;
+}
+.services__item h4 {
+    color: #000F1B;
+    font-size: 3.2rem;
+    font-weight: 500;
+    text-align: center;
+}
+.services__item ul {
+    margin-top: 2.4rem;
+    margin-left: 2.5rem;
+    list-style-type: disc;
+}
+.services__item ul li {
+    color: #000F1B;
+    font-size: 2.4rem;
+    opacity: 0.8;
+}
+.services__item ul li:not(:last-child) {
+    margin-bottom: 1.6rem;
+}
+.read__more {
+    margin-top: 1.6rem;
+    color: #1A3A82;
+    font-size: 2.4rem;
+    font-weight: 600;
+    opacity: 0.8;
+    cursor: pointer;
+}
+.inquire__wrap {
+    margin-right: 39.1rem;
+    margin-left: 39.1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.inquire__wrap:before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: 4px solid #E31E22;
+}
+.inquire__form {
+    max-width: 50rem;
+}

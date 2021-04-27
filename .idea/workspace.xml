@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a726f4b7-bb7a-40fd-af5a-516f08e4fb7b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abous-us.html" beforeDir="false" afterPath="$PROJECT_DIR$/abous-us.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/media.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/media.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +19,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -56,7 +55,7 @@
       <updated>1619419289719</updated>
       <workItem from="1619419291808" duration="12875000" />
       <workItem from="1619437591585" duration="7209000" />
-      <workItem from="1619496963638" duration="8727000" />
+      <workItem from="1619496963638" duration="16920000" />
     </task>
     <servers />
   </component>

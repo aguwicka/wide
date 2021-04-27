@@ -218,6 +218,7 @@
     position: absolute;
     right: 0;
     top: -8%;
+    box-shadow: 18px -17px 0px -5px rgba(227, 30, 34, 1);
 }
 .banner__info {
     padding-top: 7.5rem;
@@ -265,6 +266,7 @@
 }
 .banner__info-sec .banner__image {
     left: 0;
+    box-shadow: -19px 16px 0px -5px rgba(227, 30, 34, 1);
 }
 .banner__info-sec .text__info {
     padding-right: 0;
@@ -385,6 +387,7 @@
 }
 .testimonial__item {
     margin-top: 4rem;
+    box-shadow: 18px -17px 0px -5px rgba(227, 30, 34, 1);
 }
 .testimonial__item img{
     padding-top: 2.2rem;

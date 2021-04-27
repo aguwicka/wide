@@ -19,5 +19,21 @@ $('.autoplay').slick({
     slidesToScroll: 1,
     autoplay: true,
     dots: false,
-    arrows: false
+    arrows: false,
+    responsive: [
+        {
+            breakpoint: 1024,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+            }
+        }
+    ]
+});
+
+//burger
+$('.menu-burger, .menu-items').on('click', function() {
+    $('.menu-bg, .menu-burger').toggleClass('fs');
+    $('.menu-items').toggleClass('active__menu');
+    $('.menu-burger').text() == "☰" ? $('.menu-burger').text('✕') : $('.menu-burger').text('☰');
 });

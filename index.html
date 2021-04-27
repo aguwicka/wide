@@ -3,17 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/slick-theme.css">
     <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
 </head>
 <body>
     <div class="wrapper">
         <header>
             <div class="header">
                 <div class="logo">
-                    <img src="img/logo.svg" alt="">
+                    <img class="desktop-logo" src="img/logo.svg" alt="">
+                    <img class="mobile-logo" src="img/mobile__logo.svg" alt="">
                 </div>
                 <ul class="menu">
                     <li><a href="">Home</a></li>
@@ -25,6 +30,20 @@
                 <div class="header__info">
                     <a href="" class="location"><img src="img/location_on.svg" alt=""> Locations</a>
                     <a href="" class="phone"><img src="img/phone.svg" alt="">800-203-9084</a>
+                </div>
+                <div class="burger__menu">
+                    <div class="menu-bg"></div>
+                    <div class="menu-burger">☰</div>
+                    <div class="menu-items">
+                        <ul class="menu">
+                            <li><a href="">Home</a></li>
+                            <li><a href="">About us</a></li>
+                            <li><a href="">Services</a></li>
+                            <li><a href="">Career</a></li>
+                            <li><a href="">Contact us</a></li>
+                        </ul>
+                        <a href="" class="phone"><img src="img/phone.svg" alt="">800-203-9084</a>
+                    </div>
                 </div>
             </div>
         </header>
@@ -305,14 +324,14 @@
             </div>
         </section>
         <section>
-            <div class="apply__wrapper form__footer">
+            <div class="apply__wrapper form__footer tabs">
                 <div class="form">
-                    <h2 class="form__title">apply now</h2>
-                    <div class="form__select">
-                        <p class="form__give tab__active">Give care</p>
-                        <p class="form__get">Get care</p>
-                    </div>
-                    <form action="" class="form__give-wrap">
+                    <h1 class="form__title">apply now</h1>
+                    <ul class="form__select tabs__caption">
+                        <li class="form__give tab__active">Give care</li>
+                        <li class="form__get">Get care</li>
+                    </ul>
+                    <form action="" class="form__give-wrap tabs__content tab__active">
                         <div class="form__select-wrap">
                             <input type="text" placeholder="First name*" name="name">
                             <input type="text" placeholder="Last name*" name="last">
@@ -324,6 +343,20 @@
                         <input type="submit" value="Submit" class="form__submit">
                         <div class="form__terms">
                             <a href="">Terms and Conditions | Privacy Policy</a>
+                        </div>
+                    </form>
+                    <form action="" class="form__give-wrap tabs__content">
+                        <div class="form__select-wrap">
+                            <input type="text" placeholder="First name*" name="name">
+                            <input type="text" placeholder="Last name*" name="last">
+                        </div>
+                        <div class="form__select-wrap">
+                            <input type="text" placeholder="E-mail*" name="email">
+                            <input type="text" placeholder="Phone number*" name="phone">
+                        </div>
+                        <input type="submit" value="Submit" class="form__submit">
+                        <div class="form__terms">
+                            <a href="">Terms and Conditions | Privacy Policy 123</a>
                         </div>
                     </form>
                 </div>

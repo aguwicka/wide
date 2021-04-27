@@ -17,6 +17,22 @@
         padding-right: 5rem;
         padding-left: 5rem;
     }
+    .phylosophy__wrap {
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+    .agency__wrap {
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+    .about__sub {
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+    .insurance__wrap {
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
 }
 
 @media only screen and (max-width: 1550px) {
@@ -137,6 +153,28 @@
     .footer__info {
         margin-top: 2rem;
     }
+    .phyl__content {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        justify-items: center;
+    }
+    .phyl__content img {
+        max-width: 100%;
+    }
+    .phyl__back-img img {
+        max-width: 100%;
+    }
+    .agency__img img {
+        max-width: 100%;
+    }
+    .agency__wrap {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        justify-items: center;
+    }
+    .provider__item img {
+        max-width: 100%;
+    }
 }
 
 @media only screen and (max-width: 670px) {
@@ -186,8 +224,8 @@
 
 @media only screen and (max-width: 480px) {
     .benefits__wrapper {
-        padding-left: 5rem;
-        padding-right: 5rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
     }
     .banner__info-wrap {
         margin-left: 2rem;

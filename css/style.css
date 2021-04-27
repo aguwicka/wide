@@ -217,7 +217,7 @@
 .banner__image {
     position: absolute;
     right: 0;
-    top: -15%;
+    top: -8%;
 }
 .banner__info {
     padding-top: 7.5rem;
@@ -246,9 +246,18 @@
 }
 .text__info p {
     margin-top: 1.6rem;
+    margin-bottom: 2.6rem;
     color: #000F1B;
     font-size: 2.4rem;
     max-width: 77rem;
+}
+.text__info a {
+    padding: 1.5rem 4.5rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+    background: #1A3A82;
+    color: #fff;
+    text-transform: uppercase;
 }
 .banner__info-sec {
     margin-top: 20rem;
@@ -427,6 +436,7 @@
     color: #fff;
 }
 .form__footer {
+    margin-top: 11.9rem;
     margin-right: 5.2rem;
     margin-left: 5.2rem;
     padding: 10rem 0 8.4rem 32rem;
@@ -494,4 +504,95 @@ footer {
     justify-content: center;
     font-size: 1.2rem;
     color: #121111;
+}
+.about__us-wrap {
+    padding-top: 20rem;
+    padding-bottom: 55rem;
+}
+.about__us-banner {
+    margin-top: 14rem;
+}
+.phylosophy__wrap {
+    margin-top: 14rem;
+    padding-left: 38rem;
+    padding-right: 38rem;
+}
+.phyl__content {
+    margin-top: 3.2rem;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+.phyl__content p {
+    margin-right: 2.5rem;
+    font-size: 2.4rem;
+    color: #000F1B;
+}
+.phyl__sub-content {
+    margin-top: 6.4rem;
+    font-size: 2.4rem;
+    color: #000F1B;
+}
+.phyl__back-img {
+    margin-top: 6.4rem;
+}
+.phyl__back-img img {
+    max-width: 100%;
+}
+.agency__wrap {
+    margin-top: 6.4rem;
+    padding-left: 37.8rem;
+    padding-right: 37.8rem;
+    display: grid;
+    align-items: center;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+.agency__img {
+    margin-right: 2.7rem;
+}
+.agency__content h4 {
+    padding-bottom: 1.6rem;
+    font-weight: 600;
+    font-size: 5rem;
+    position: relative;
+}
+.agency__content h4:after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 3.2rem;
+    border-bottom: 4px solid #E31E22;
+    bottom: 0;
+    left: 0;
+    transform: translate(0, 0);
+}
+.agency__content ul {
+    margin-top: 2.7rem;
+    margin-left: 2.7rem;
+    list-style-type: disc;
+}
+.agency__content ul li {
+    color: #000F1B;
+    font-size: 2.4rem;
+}
+.agency__content ul li:not(:last-child) {
+    margin-bottom: 1.6rem;
+}
+.about__sub {
+    padding: 9.6rem 37.8rem 11.9rem 37.8rem;
+    font-size: 2.4rem;
+    color: #000F1B;
+    opacity: 0.8;
+}
+.insurance__wrap {
+    padding: 8rem 37.6rem;
+    background: #ECF3FF;
+}
+.insurance-providers {
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
 }

@@ -788,3 +788,15 @@ footer {
 .form__select-wrap textarea::placeholder {
     font-size: 1.6rem;
 }
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.google__map {
+    height: 400px;
+}
+#map {
+    height: 100%;
+}

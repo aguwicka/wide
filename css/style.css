@@ -720,3 +720,52 @@ footer {
 .inquire__form {
     max-width: 50rem;
 }
+.careers__form .form__give, .careers__form .form__get {
+    border-bottom: 0;
+}
+.form__section {
+    display: flex;
+    justify-items: center;
+}
+.careers__form .form__select .circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: .8rem;
+    width: 2.4rem;
+    height: 2.4rem;
+    border: 1px solid #9EACBD;
+    border-radius: 50%;
+}
+.circle span {
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.careers__form .tab__active {
+    border: 0;
+}
+.tab__active .circle span {
+    background: #1A3A82;
+}
+.careers__wrap {
+    padding-left: 35rem;
+    padding-right: 35rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.careers__form {
+    margin-right: 0;
+    margin-left: 0;
+}
+.careers__info {
+    margin-right: 20rem;
+}
+.careers__info p {
+    margin-top: 3.2rem;
+    font-size: 2.4rem;
+    color: #000F1B;
+}
